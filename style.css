@@ -1,0 +1,240 @@
+/* ================== Defult CSS================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: #66666d;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+
+/* ================Heade CSS=============== */
+
+
+.fixed_width{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background: #f8c291;
+}
+.header_left{
+    float: left;
+    width: 30%;
+}
+.header_left img{
+    width: 210px;
+    height: auto;
+}
+.header_right{
+    float: right;
+    width: 70%;
+}
+.header_right ul{
+    text-align: right;
+}
+.header_right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header_right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 74px;
+    border-right: 1px solid #ddd;
+    transition: .5s;
+}
+.header_right ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* ==============Banner CSS=============== */
+
+
+.banner{
+    background: url(https://i.ibb.co/0Qzn80q/man.jpg),rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+    padding: 250px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+.banner_caption h2{
+    background-color: rgba(0, 0, 0, .4);
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.banner_caption h1{
+    background-color: rgba(52, 152, 219, .6);
+    color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    font-size: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* =============About============== */
+
+.about{
+   padding: 50px 0;
+   
+
+}
+.about h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.about p {
+	max-width: 700px;
+	margin: auto;
+	font-size: 20px;
+	
+}
+
+/* =================Service Section================= */
+
+.service{
+    padding: 50px 0;
+  
+}
+
+.service_item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service_item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #ffffff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service_item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+
+/* =================Blog Section============== */
+
+
+.blog_container{
+    padding: 50px 0;
+    background: #fafafa;
+}
+.blog_left_content{
+    float: left;
+    width: 70%;
+}
+.blog_righit_notification{
+    float: right;
+    width: 25%;
+}
+.blog_item{
+    margin-bottom: 30px;
+}
+.blog_item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.blog_item p{
+    text-align: justify;
+}
+
+/* ===============blog_righit_notification====================*/
+
+.blog_righit_notification h2{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.blog_righit_notification ul{
+    list-style: none;
+}
+.blog_righit_notification ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 18px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* =================Footer================ */
+
+
+.footer{
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 15px 0;
+}
+.footer_left{
+    float: left;
+    width: 40%;
+}
+.footer_left p{
+    color: #fff;
+}
+.footer_right{
+    float: right;
+    width: 60%;
+}
+.social_menu{
+    text-align: right;
+}
+.social_menu li{
+    display: inline-block;
+}
+.social_menu li a{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.social_menu li a:hover{
+color: rgb(138, 136, 136);
+
+}

@@ -1,0 +1,198 @@
+
+
+
+@media (max-width: 1272px) { 
+
+    .fixed_width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        background: #3498db;
+        padding: 0;
+    }
+ }
+
+ @media (max-width: 854px) {
+     
+  }
+ @media (max-width: 1067px) {
+       .banner{
+           padding: 200px;
+       }
+  }
+ 
+
+ @media (max-width: 854px) { 
+    .header {
+        padding: 0;
+    }
+    .header_left {
+        
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .header_left img{
+        width: 130px;
+    }
+    .service_item h3 {
+       
+        font-size: 20px;
+    }
+
+    .header_right {
+      
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header_right ul {
+        text-align: center;
+    }
+
+    .header_right ul li a {
+        line-height: 42px;
+       border: none;
+    
+    }
+    .banner{
+        padding: 150px;
+    }
+  }
+
+  
+  @media (max-width: 780px) {
+    .banner{
+        padding: 100px;
+    }
+    .banner_caption h2{
+       
+        font-size: 18px;
+        
+    }
+    .banner_caption h1{
+      
+        font-size: 25px;
+        
+    }
+  }
+  
+
+  @media (max-width: 610px) { 
+    .header_right ul li a {
+      
+        padding: 0 12px;
+        line-height: 42px;
+        border: none;
+    }
+
+    .banner {
+    
+        padding: 130px 0;
+        
+    }
+
+    .service_item {
+       
+        width: 100%;
+      
+        padding: 15px 10px;
+      margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog_left_content {
+        
+        width: 100%;
+    }
+    .blog_righit_notification {
+        float: right;
+        width: 100%;
+    }
+    .blog_item img {
+       
+        width: 100%;
+        padding: 20px;
+      
+    }
+    .service{
+        padding: 0;
+      
+    }
+
+    .blog_righit_notification h2 {
+       
+        text-align: center;
+    }
+    .footer_left {
+        
+        width: 100%;
+        text-align: center;
+    }
+    .footer_right {
+        
+        width: 100%;
+        text-align: center;
+    }
+    .social_menu {
+        text-align: center;
+        margin-top: 15px;
+    }
+   }
+
+   
+   
+
+   @media (max-width: 510px) { 
+    .banner {
+    
+        padding: 100px 0;
+        
+    }
+    .banner_caption h2 {
+        
+        padding: 6px 23px;
+        font-size: 17px;
+        
+    }
+
+    .banner_caption h1 {
+       
+        font-size: 25px;
+        padding: 5px 0;
+        margin-top: 18px;
+    
+    }
+    .header_right ul li a {
+      
+        padding: 0 8px;
+        font-size: 15px;
+       
+    }
+}
+
+    
+   
+
+    
+    
+    
+   
+   
+   
+  
+  
+  
+ 
+ 
+ 
+
+
